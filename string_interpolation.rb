@@ -4,4 +4,10 @@ end
 
 # Testing area:
 
-puts greet('Tyler')
+# puts greet('Tyler')
+
+puts "What is your name?"
+puts "..."
+name = gets.chomp
+
+puts greet(name)
