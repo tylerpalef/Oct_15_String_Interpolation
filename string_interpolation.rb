@@ -9,5 +9,5 @@ end
 puts "What is your name?"
 puts "..."
 name = gets.chomp
-
+puts "..."
 puts greet(name)
